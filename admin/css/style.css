@@ -1,0 +1,125 @@
+/*Import font from GG font*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+
+:root {
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto: "Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color) !important;
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.font-roboto {
+    font-family: var(--roboto);
+}
+
+.lightblue {
+    color: lightblue;
+}
+
+/* HEADER*/
+header {
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+
+header .site.title {
+    font-family: var(--gugi);
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item {
+    font-size: 0.9em;
+}
+
+.header-links a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar-collapse {
+    height: 88vh;
+    background: white;
+}
+
+#icon-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg-graycolor {
+    background-color: #f1f4f7;
+}
+
+.page-header {
+    font-family: var(--roboto);
+}
+
+.label {
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #4CAF50;
+}
+
+/* Green */
+.info {
+    background-color: #2196F3;
+}
+
+/* Blue */
+.warning {
+    background-color: #ff9800;
+}
+
+/* Orange */
+.danger {
+    background-color: #f44336;
+}
+
+/* Red */
+.other {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+/* Gray */
+
+.panel-default {
+    border-bottom: 1px solid #eee;
+    color: #5f6468;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+.table {
+    border-bottom: 1px solid rgba(214, 208, 208, 0.904);
+}
+
+label {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.bg-white {
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+main{
+    font-family: var(--roboto);
+    color: #2b3032a1;
+}
+.product-list a{
+    text-decoration: none;
+    color: #2b3032a1;
+    font-size: 18px;
+   
+}
+#pagination ul{
+	float:right;
+	margin-top:20px;}
+#pagination ul li a.page-link{
+	color:#333333;}			
+#pagination ul li a.page-link:hover{
+	background:orange;
+	color:#FFF;}
+#pagination ul li.active a{
+	background:orange;
+	border-color:#dee2e6;
+    color:#FFF;}	
+    
+
+.overlay-right{
+        left: 10%;
+}
+
+@media screen and (max-width: 450px){
+    .overlay-right{
+        bottom:19%;
+        left: 55%;
+    }
+}
